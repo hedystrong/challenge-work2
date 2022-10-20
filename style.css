@@ -1,52 +1,6 @@
 *{
     box-sizing: border-box;
 }
-.header{
-    max-width: 1933px;
-    height: 84px;
-    width: 100%;
-    margin: auto;
-    font-family: 'Poppins', sans-serif;
-}
-.container{
-    width: 1280px;
-    display: flex;
-    align-items: center;
-   
-}
-.title{
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.title1{
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-}
-.title2 a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #394149;
-}
-ul{
-    display: flex;
-    list-style: none;
-    width: 437px;
-    height: 24px;
-    justify-content: space-between;
-    align-items: center;
-}
-.button1{
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 31px;
-    background: rgba(245, 138, 7, 0.1);
-    color: #F58A07;
-    border: solid 0 rgba(245, 138, 7, 0.1);
-    align-items: center;
-}
-/*HEADER END*/
 /*BANNER START*/
 .banner{
     width: 1933px;
@@ -286,16 +240,12 @@ ul{
     font-family: 'Poppins', sans-serif;
 }
 .title4{
-    width: 619px;
-    height: 132px;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #0D1317;
 }
 .text2{
-    width: 620px;
-    height: 102px;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
@@ -445,6 +395,7 @@ ul{
     justify-content: space-around;
     align-items: center;
 }
+.section-1 button
 .button4{
     width: 194px;
     height: 40px;
@@ -526,13 +477,13 @@ ul{
 
 /*SECTION 5 START*/
 .container6{
-    width: 1933px;
+    width: 1930px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     display: flex;
 }
 .leftSlide2{
-    width: 968px;
+    
     height: 518px;
 }
 .rightSlide1{
@@ -737,39 +688,4 @@ ul{
 }
 /*SECTION 5 END*/
 
-/*FOOTER START*/
-.end{
-    width: 1920px;
-    height: 360px;
-    background: #063255;
-    color: #FFFFFF;
-}
-.container9{
-    width: 100%;
-    max-width: 1280px;
-    height: 200px;
-    margin: auto;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-between;
-}
-.logo h3{
-    width: 351px;
-    height: 88px;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    
-}
-.footer ul{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    align-items: flex-start;
-}
-.footer1 ul{
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    align-items: start;
-}
+
